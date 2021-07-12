@@ -4,6 +4,7 @@ import LoginScreen from './app/screens/LoginScreen';
 import RegisterScreen from './app/screens/RegisterScreen';
 import MyAccountScreen from './app/screens/MyAccountScreen';
 import ItemsListScreen from './app/screens/ItemsListScreen';
+import MyListScreen from './app/screens/MyListScreen';
 
 //Colors
 import colors from './app/config/colors';
@@ -61,6 +62,20 @@ export default function App() {
         <Stack.Screen 
             name="ItemsList" 
             component={ItemsListScreen} 
+            options={{
+            title: '' ,
+            headerTransparent: true,
+            headerTintColor: colors.black,  // The arrow color
+            headerTitleStyle: {
+              fontWeight: 'bold',
+              textAlign: 'center',
+              marginRight: "23%"
+            },
+          }}
+        />
+        <Stack.Screen 
+            name="MyList" 
+            component={MyListScreen} 
             options={{
             title: '' ,
             headerTransparent: true,

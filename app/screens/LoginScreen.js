@@ -66,7 +66,7 @@ import { BackgroundImage } from 'react-native-elements/dist/config';
           <Text 
             style={styles.forgotPassword} 
             // numberOfLines={2} 
-            onPress={handlePress}>Forgot Password?
+            onPress={()=>navigation.navigate('MyList')}>Forgot Password?
           </Text>
           {/* <StyledButton btnTitle="Login" onPress={()=>navigation.navigate('MyAccount')}/> */}
           <Button 
