@@ -34,7 +34,8 @@ import { BackgroundImage } from 'react-native-elements/dist/config';
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground 
-        source={require('../assets/backgrounds/loginBackground.jpg')}   
+        source={require('../assets/backgrounds/loginBackground3.jpg')}   
+        // source={require('../assets/backgrounds/loginBackground.jpg')}   
         resizeMode="cover"
         style={styles.imageBackground}
       >

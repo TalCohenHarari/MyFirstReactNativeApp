@@ -26,7 +26,7 @@ export default function MyAccountScreen({navigation} ) {
   return (
     <View style={styles.container}>
         <ImageBackground 
-            source={require('../assets/backgrounds/loginBackground.jpg')}   
+            source={require('../assets/backgrounds/manAvatar.jpg')}   
             resizeMode="cover"
             style={styles.imageBackground}
         >

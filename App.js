@@ -8,6 +8,7 @@ import MyListScreen from './app/screens/MyListScreen';
 
 //Colors
 import colors from './app/config/colors';
+
 //Navigation
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
@@ -79,12 +80,17 @@ export default function App() {
             options={{
             title: '' ,
             headerTransparent: true,
-            headerTintColor: colors.black,  // The arrow color
+            // headerStyle: {
+            //   backgroundColor: colors.black, // The header color
+            // },
+            headerTintColor: colors.white,  // The arrow color
             headerTitleStyle: {
               fontWeight: 'bold',
               textAlign: 'center',
-              marginRight: "23%"
+              marginRight: "23%",
             },
+            
+           
           }}
         />
       </Stack.Navigator>

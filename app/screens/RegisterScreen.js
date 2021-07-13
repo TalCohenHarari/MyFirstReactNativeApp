@@ -8,7 +8,7 @@ export default function RegisterScreen({navigation} ) {
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground 
-        source={require('../assets/backgrounds/loginBackground.jpg')}   
+        source={require('../assets/backgrounds/loginBackground3.jpg')}   
         resizeMode="cover"
         style={styles.imageBackground}>
 

@@ -60,7 +60,7 @@ export default function ItemsListScreen({ navigation }) {
                                     name="Fruits & Vegtables" />
                             </ScrollView>
                         </View>
-                        <Text style={{ fontSize: 20, fontWeight: '700', paddingHorizontal: 20 }}>
+                        <Text style={{ fontSize: 20, fontWeight: '700', paddingHorizontal: 20,marginTop: 20 }}>
                             Select your food you love
                         </Text>
                         <View style={{ height: 240, marginTop: 20, }}>
